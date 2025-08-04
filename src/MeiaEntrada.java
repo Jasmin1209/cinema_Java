@@ -1,7 +1,7 @@
 public class MeiaEntrada extends Ingressos{
 
-    public MeiaEntrada (){
-        super();
+    public MeiaEntrada (String nome_filme, String tipo_Audio){
+        super(nome_filme, tipo_Audio);
     }
 
     @Override

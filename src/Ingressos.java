@@ -3,10 +3,10 @@ public class Ingressos {
     protected String nome_filme;
     protected String tipo_Audio;
 
-    public Ingressos (){
-        this.valor = 20;
-        this.nome_filme = "Matrix";
-        this.tipo_Audio = "Dublado";
+    public Ingressos ( String nome_filme, String tipo_Audio) {
+        this.valor = 30;
+        this.nome_filme = nome_filme;
+        this.tipo_Audio = tipo_Audio;
     }
 
     public double getValorReal(){
